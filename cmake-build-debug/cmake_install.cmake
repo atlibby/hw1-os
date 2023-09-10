@@ -1,4 +1,4 @@
-# Install script for directory: /Users/andrewlibby/CLionProjects/CS3010_Assignment1
+# Install script for directory: /Users/andrewlibby/CLionProjects/hw1-os
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/andrewlibby/CLionProjects/CS3010_Assignment1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/andrewlibby/CLionProjects/hw1-os/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
