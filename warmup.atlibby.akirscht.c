@@ -16,6 +16,7 @@ Thing *createThing(char *name, unsigned int weight){
 
 }
 
+
 int compareThings(Thing *thingOne, Thing *thingTwo){
     if (strcmp(thingOne->name, thingTwo->name) < 0){return -1;}
     else if (strcmp(thingOne->name, thingTwo->name) > 0){return 1;}
