@@ -13,5 +13,7 @@ Thing *createThing(char *name, unsigned int weight);
 
 int compareThings(Thing *thingOne, Thing *thingTwo);
 
+int buildThingArray(Thing **thingArray_p, int *numThings);
+
 #endif //CS3010_ASSIGNMENT1_WARMUP_ATLIBBY_AKIRSCHT_H
 
